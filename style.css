@@ -1,0 +1,34 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.navbar {
+    background-color: #1F2937;
+}
+
+Header {
+color: #F9FAF8;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul a {
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
