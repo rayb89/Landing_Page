@@ -4,6 +4,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main {
@@ -36,6 +37,96 @@ align-self: center;
     font-size: 18px;
     padding: 10px;
 
+}
+
+.section1{
+    background-color: #1F2937;
+    display: flex;
+}
+
+
+.section1 img {
+    background-color: grey;
+}
+
+.section1 button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 90px;
+}
+
+.section1 h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.section1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section2 h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.img4 {
+    display: flex;
+}
+
+.img4 img {
+    border: 5px solid #3882F6;
+    padding: 10px;
+}
+
+.img4 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 50px;
+}
+
+.section3 .sec3p1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.section3 .sec3p2 {
+    font-weight: bold;
+    align-self: flex-end;
+
+}
+
+.sec4 {
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 10px;
+    color: #E5E7EB;
+    
+}
+
+.sec4 button {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 70px;
 }
 
 footer {
