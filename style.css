@@ -42,11 +42,18 @@ align-self: center;
 .section1{
     background-color: #1F2937;
     display: flex;
+    padding: 20px;
 }
 
 
+
 .section1 img {
-    background-color: grey;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
 }
 
 .section1 button {
@@ -64,11 +71,20 @@ align-self: center;
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin-bottom: 0px;
 }
 
 .section1 p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0px;
+}
+
+.s1d1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .section2 h1 {
@@ -84,6 +100,9 @@ align-self: center;
 .img4 img {
     border: 5px solid #3882F6;
     padding: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
 }
 
 .img4 div {
@@ -115,10 +134,21 @@ align-self: center;
 
 .sec4 {
     background-color: #3882F6;
+    border-radius: 15px;
     margin: 100px;
     padding: 10px;
     color: #E5E7EB;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec4 h1 {
+    margin-bottom: 0px;
+}
+
+.sec4 p {
+    margin-top: 0px;
 }
 
 .sec4 button {
@@ -126,7 +156,8 @@ align-self: center;
     color: white;
     border: 1px solid white;
     border-radius: 4px;
-    width: 70px;
+    width: 100px;
+    height: 40px;
 }
 
 footer {
